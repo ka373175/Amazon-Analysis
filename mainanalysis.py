@@ -29,7 +29,7 @@ content["onpage1"] = 0 #creates a new column named onpage1 and initializes all i
 endloop = 0
 atfile = 0
 while(endloop == 0):
-	if(content.at[atfile, "page"] <= 10):
+	if(content.at[atfile, "page"] <= 1):
 		content.at[atfile, "onpage1"] = 1
 		atfile = atfile + 1
 	else:
